@@ -4,4 +4,4 @@ class Persona ():
         self.apellido=apellido
         self.edad=edad
     def saluda (self):
-        return f"hola, soy {self.nombre}"
+        return f"hola, soy {self.nombre} {self.apellido}"
